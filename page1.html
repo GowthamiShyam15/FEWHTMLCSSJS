@@ -1,0 +1,170 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web App</title>
+    <link rel="icon" href="images/sf1.png">
+
+    <!-- CSS selectors
+     1. element selector (tags:p,h1,..) 2. id selector (#)
+     3. class selector (.)
+     4. group slector (ex: p,h1,...)
+     5. universal selector(*)-->
+     
+
+    <!-- internal styling -->
+    <style>
+  
+      #i1{
+        text-decoration: underline;
+        color:Green;
+        text-align: center;
+        text-shadow: 5px 5px 4px gray, 10px 10px 4px yellow;
+      }
+      #id1{
+        background-color: antiquewhite;
+        /*padding:30px 20px 50px 40px;
+        padding-top:30px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        padding-left: 10px;*/
+        padding:20px;
+        border:5px blue solid;
+        /*border-top: 3px solid green;
+        border-bottom: 5px dotted red;
+        border-right: ;
+        border-left: ;
+        border-width: 10px;
+        border-color: brown;
+        border-style: solid;*/
+        box-shadow: 5px 5px 6px red;
+      }
+      .class1{
+        color:blue;
+      }
+      .extra{
+        text-align:justify;
+      }
+      #id4{
+        font-weight: 900;
+        color:red;
+        font-size: 20px;
+        
+      }
+      abbr {
+      text-decoration: none;
+}
+ol{
+  list-style-image:url('images/sf1.png') ;
+  list-style-position:inside;
+}
+dd{
+  padding:20px;
+  background-color: bisque;
+ /* border-radius: 20px 30px 40px 50px;*/
+ border-radius: 20px;
+ margin: 20px;
+ /*margin-top: ;
+ margin-bottom: ;
+ margin-left: ;
+ margin-right: ;*/
+}
+    </style>
+<!-- external styles -->
+ <link rel="stylesheet" href="style.css">
+
+ <!-- fontawesome links -->
+  <script src="https://kit.fontawesome.com/598ff51e0f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- bgcolor='lightpink' text="green" 
+    
+   <br>
+    CSS Fundamentals  -->
+    <!-- <br> is break the line -->
+
+    <!-- Heading Tags - h1, h2, h3, h4, h5, h6 -->
+     <!-- HTML Introduction  -->
+     <h1 id="i1">HTML Introduction </h1>
+     <hr>
+     <!-- <h2>HTML Introduction </h2>
+     <h3>HTML Introduction </h3>
+     <h4>HTML Introduction </h4>
+     <h5>HTML Introduction </h5>
+     <h6>HTML Introduction </h6> -->
+
+   <p> HTML is a markup language, not a programming language, meaning it annotates text to define how it is structured and displayed by web browsers.</p>
+<p id="id1">It forms the building blocks of all websites and is complemented by CSS for style and JavaScript for interactivity.</p>
+
+<p class="class1"> <u>HTML</u> is a <i style="color:red">markup language</i>, not a programming language, meaning it annotates text to define how it is structured and displayed by web browsers.HTML is a markup language, not a programming language, meaning it annotates text to define how it is structured and displayed by web browsers.HTML is a markup language, not a programming language, meaning it annotates text to define how it is structured and displayed by web browsers.</p>
+<p class="class1 extra"> HTML is a markup language, not a programming language, meaning it annotates text to define how it is structured and displayed by web browsers.HTML is a markup language, not a programming language, meaning it annotates text to define how it is structured and displayed by web browsers.HTML is a markup language, not a programming language, meaning it annotates text to define how it is structured and displayed by web browsers.</p>
+<!-- CSS - 3 types of styling:
+1. inline styling
+2. internal styling
+3. external styling(file.css - <link> in head) -->
+
+<!-- It forms the building blocks of all websites and is complemented by CSS for style and JavaScript for interactivity. <br>
+It forms the building blocks of all websites and is complemented by CSS for style and JavaScript for interactivity. -->
+
+<!-- inline styling -->
+<p style="color:blueviolet"><abbr title="HyperText Markup Language"><span id="id4">HTML</span></abbr> . It is the standard language used to create and structure content on the web.</p>
+
+
+
+<!-- List(unordered, ordered, defined list) 
+ 
+unordered - ul-li
+<ul type="square">
+  <li>HTML basics include understanding the syntax, elements/tags, attributes, structure and formatting of HTML file.</li>
+  <li>HTML syntax means the set of rules and regulation that defines how HTML code is structured and written.</li>
+</ul>-->
+
+<!-- adding links -->
+ <a href="page2.html" target="_blank">HTML</a>
+ <a href="https://www.facebook.com" target="_blank"><img src="images/sf1.png" alt="" ></a> <br>
+  <br>
+
+ <!-- adding icons -->
+<div class="icons">
+<a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+<a href="https://www.google.co.in" target="_blank"><i class="fa-brands fa-google"></i></a>
+<a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+<a href="https://www.google.co.in" target="_blank"><i class="fa-brands fa-google"></i></a>
+<a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+<a href="https://www.google.co.in" target="_blank"><i class="fa-brands fa-google"></i></a>
+</div>  
+<div>
+<h1>HTML Introduction – FAQs</h1>
+<!-- adding images -->
+ <img src="images/input.jpg" alt="image" id="i2" >
+
+<p>In conclusion, mastering HTML is a fundamental step in your web development journey. This guide serves as a comprehensive resource for understanding HTML, from the basics to more advanced topics. Remember, <span class="c1">HTML</span> is more than just a markup language – it’s a powerful tool for creating engaging, accessible, and SEO-friendly websites.</p>
+<ol >
+  <li>HTML basics include understanding the syntax, elements/tags, attributes, structure and formatting of HTML file.</li>
+  <li>HTML syntax means the set of rules and regulation that defines how HTML code is structured and written.</li>
+</ol>
+<dl>
+  <dt>What is HTML?</dt>
+  <dd >HTML is a global markup language for web. You can create any a webpage using HTML and any browser can open that HTML file.</dd>
+</dl>
+</div>
+
+<!-- group Tags : div, span-->
+ <!-- add audio -->
+ <audio src="Audio.mpeg" controls></audio>
+ <!-- audio attribute - autoplay,loop -->
+
+ <!-- add video -->
+  <video src="_ABC Song_ - Nursery Rhymes.mp4" controls width="500px" height="200px" poster="images/input.jpg"></video>
+
+  <!-- add google map -->
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.236619143516!2d72.8747333!3d19.0972728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9c4958faf1b%3A0x5d176215cb3dbf6c!2sMumbai%20Domestic%20Airport%20Lounge%20-%20Adani%20Lounge!5e0!3m2!1sen!2sin!4v1737266636130!5m2!1sen!2sin" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+   <!-- youtube videos -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9e_pMV0z8Kg?si=pOa244bgc4xALywV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+</body>
+</html>

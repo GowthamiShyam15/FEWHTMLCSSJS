@@ -1,0 +1,40 @@
+.c2 button{
+    padding:13px;
+    font-size:20px;
+    background-color: greenyellow;
+    border-radius: 25px;
+    border:2px solid green;
+    color:red;
+    cursor: pointer;  
+}
+.c2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.c2 button:hover{
+    color:blue;
+    background-color: aquamarine;
+     border:2px solid violet;
+     box-shadow: 5px 5px 4px white;
+}
+.c1 input{
+    border:none;
+    background-color: transparent;
+    border-bottom: 2px solid blue;
+    border-radius: 20px;
+}
+.c1 input:focus{
+    outline: none;
+}
+.bord input{
+    border: none;
+}
+.c1 label{
+    margin-right:20px;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

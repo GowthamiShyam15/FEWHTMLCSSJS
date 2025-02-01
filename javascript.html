@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Welcome to <span id="id1">HTML</span> Course</p>
+    <img src="images/thumbs-up.png" alt="" id='image'><br>
+    <button type="ok" onclick="change()">CLICK ME</button>
+    <button type="ok" onclick="Change_image()">Image</button>
+<button type="ok" onclick="come_back()">Previous</button>
+
+    
+    <script>
+        //document.write('<h1>Welcome to Javascript</h1>') /* ---------*/
+        //console.log("Welcome")
+        //Variables - store data
+        //var, let, const
+        /* let x = "Welcome to Javascript"
+        const age = 34
+        document.write(age)
+        age = age+1
+        document.write(age) 
+        var x = 100
+        document.write(x+"<br>")
+        x = x+10
+        document.write(x)*/
+        function change(){
+            let x = "Javascript"
+        document.getElementById('id1').innerHTML=x
+        document.getElementById('id1').style.color='red';
+        document.getElementById('id1').style.textDecoration='underline';
+        }
+        function Change_image(){
+            document.getElementById('image').src='images/input.jpg'
+        }
+        function come_back(){
+            document.getElementById('id1').innerHTML="HTML"
+            document.getElementById('image').src='images/thumbs-up.png'
+
+        }
+        
+    </script>
+</body>
+</html>

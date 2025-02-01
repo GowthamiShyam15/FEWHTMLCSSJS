@@ -1,0 +1,35 @@
+table{
+    border-collapse: collapse;
+    width:500px;
+    height:150px;
+    text-align: center;
+   border:5px solid grey;
+    background-color: rgb(4, 4, 73);
+    color:white;
+    margin:auto;
+    margin-top:100px;
+}
+td,th,tr{
+     border:1px solid white ;
+}
+caption{
+    color:blue;
+    caption-side: bottom; 
+    padding:10px;
+   margin:30px 0px 0px 0px;
+   background-color: aqua;
+   
+}
+#i1{
+  background-color: antiquewhite;  
+  color:blue;
+}
+.c1{
+    background-image: url('images/thumbs-up.png');
+    background-size: 50px 30px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    color:red;
+    
+   
+}
